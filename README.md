@@ -11,8 +11,13 @@ birds, planes, clouds and rain — drawn with the OpenGL 1.1 fixed-function
 pipeline, in four scenes (day, rain, night, rain at night).
 
 <p align="center">
-  <img src="docs/figures/scenes_softgl.png" alt="The four scenes: day, rain, night, rain at night" width="820">
-  <br><sub>The four scenes rendered <em>head-less</em> by the repository's own software rasteriser (see below) — not screenshots.</sub>
+  <img src="docs/figures/scenes_gpu.png" alt="The four scenes: day, rain, night, rain at night" width="900">
+  <br><sub>The four scenes as drawn by the real OpenGL build — Visual Studio 2022, Release | x64, captured with <code>p</code>.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/figures/scenes_softgl.png" alt="The same four scenes rendered by the repository's own software rasteriser" width="820">
+  <br><sub>The same four scenes rendered <em>head-less</em> with no GPU at all, by the software rasteriser in <a href="tools/softgl">tools/softgl</a> — these are the reference frames the regression tests compare against.</sub>
 </p>
 
 > **Provenance.** The scene geometry was authored by **Krishno Dey** and
