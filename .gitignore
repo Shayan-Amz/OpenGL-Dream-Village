@@ -1,0 +1,44 @@
+# Build outputs
+build/
+build-*/
+cmake-build-*/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+
+# NuGet packages (restored from packages.config)
+packages/
+
+# Visual Studio user state
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Code::Blocks (the upstream IDE)
+*.depend
+*.layout
+bin/
+obj/
+
+# Screenshots taken with the 'p' key land in the working directory
+dream_village_*.png
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
