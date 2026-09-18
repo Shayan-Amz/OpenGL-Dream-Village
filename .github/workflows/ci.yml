@@ -1,0 +1,76 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  # Head-less regression on softgl: no GPU, no window system.  Renders the
+  # four scenes, checks for GL errors and requires the port to be
+  # pixel-identical to the legacy program.  Also builds the GLUT application.
+  linux:
+    name: Ubuntu (GCC) · build + head-less tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install OpenGL / freeglut
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends freeglut3-dev libgl1-mesa-dev libglu1-mesa-dev
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_COMPILE_WARNING_AS_ERROR=ON
+      - name: Build
+        run: cmake --build build --parallel
+      - name: Test
+        run: ctest --test-dir build --output-on-failure
+      - name: Upload rendered frames
+        uses: actions/upload-artifact@v6
+        with:
+          name: frames-softgl
+          path: |
+            build/day.png
+            build/rain.png
+            build/night.png
+            build/rain_night.png
+            build/diff_*.png
+
+  macos:
+    name: macOS (Clang) · build + head-less tests
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_COMPILE_WARNING_AS_ERROR=ON
+      - name: Build
+        run: cmake --build build --parallel
+      - name: Test
+        run: ctest --test-dir build --output-on-failure
+
+  # The Visual Studio solution is what the project is developed with; build it
+  # exactly as a user would (NuGet restore of nupengl.core, then MSBuild), and
+  # run the CMake head-less tests with MSVC as well.
+  windows:
+    name: Windows (MSVC) · VS solution + head-less tests
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: microsoft/setup-msbuild@v2
+      - name: Restore NuGet packages (FreeGLUT)
+        run: nuget restore DreamVillage.sln
+      - name: Build solution (Release x64)
+        run: msbuild DreamVillage.sln -p:Configuration=Release -p:Platform=x64 -m -warnAsError
+      - name: Configure head-less tests
+        run: cmake -S . -B build -DDV_BUILD_APP=OFF -DCMAKE_COMPILE_WARNING_AS_ERROR=ON
+      - name: Build head-less tests
+        run: cmake --build build --config Release --parallel
+      - name: Test
+        run: ctest --test-dir build -C Release --output-on-failure
+      - name: Upload application binary
+        uses: actions/upload-artifact@v6
+        with:
+          name: dream_village-windows-x64
+          path: |
+            x64/Release/DreamVillage.exe
+            x64/Release/freeglut.dll
