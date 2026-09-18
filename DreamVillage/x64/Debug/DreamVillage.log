@@ -1,0 +1,407 @@
+﻿  main.cpp
+  scene.cpp
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(118,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(118,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(174,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(174,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(177,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(213,16): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(214,16): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(217,16): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(218,16): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(219,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(219,16): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(223,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(223,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(224,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(224,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(225,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(225,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(226,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(226,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(226,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(284,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(285,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(287,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(287,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(287,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(288,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(288,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(288,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(289,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(289,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(289,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(290,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(290,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(290,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(291,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(291,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(291,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(292,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(292,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(292,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(383,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(498,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(498,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(501,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(501,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(501,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(502,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(502,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(503,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(503,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(504,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(504,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(505,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(505,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(507,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(507,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(507,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(508,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(508,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(509,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(509,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(510,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(510,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(511,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(511,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(514,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(514,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(521,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(521,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(521,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(522,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(522,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(523,30): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(523,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(524,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(524,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(525,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(525,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(529,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(529,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(530,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(530,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(531,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(531,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(532,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(532,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(545,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(545,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(548,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(548,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(548,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(549,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(549,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(550,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(550,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(551,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(551,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(552,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(552,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(554,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(554,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(555,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(555,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(556,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(556,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(557,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(557,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(558,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(558,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(560,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(560,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(566,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(566,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(567,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(567,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(568,30): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(568,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(569,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(569,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(570,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(570,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(573,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(574,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(574,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(575,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(575,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(576,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(576,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(577,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(577,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(587,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(587,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(588,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(588,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(589,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(589,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(590,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(590,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(591,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(591,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(592,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(592,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(593,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(593,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(599,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(599,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(604,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(604,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(605,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(605,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(606,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(606,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(607,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(607,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(611,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(611,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(612,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(612,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(613,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(613,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(614,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(614,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(615,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(615,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(623,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(623,20): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(623,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(623,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(627,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(627,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(628,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(628,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(629,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(629,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(630,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(630,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(631,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(631,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(633,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(633,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(634,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(634,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(635,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(635,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(636,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(636,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(637,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(637,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(639,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(639,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(642,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(642,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(643,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(643,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(644,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(644,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(646,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(646,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(647,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(647,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(648,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(648,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(650,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(650,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(651,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(651,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(652,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(652,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(673,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(673,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(674,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(674,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(675,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(675,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(676,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(677,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(677,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(679,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(679,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(684,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(684,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(689,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(689,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(690,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(690,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(691,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(691,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(692,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(692,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(696,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(696,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(697,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(697,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(698,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(698,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(699,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(699,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(700,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(700,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(705,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(705,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(705,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(705,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(709,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(709,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(710,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(710,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(711,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(711,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(712,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(712,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(713,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(713,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(715,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(715,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(716,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(716,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(717,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(717,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(718,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(718,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(719,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(719,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(723,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(725,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(725,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(726,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(726,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(727,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(727,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(729,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(729,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(730,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(730,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(731,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(731,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(733,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(733,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(734,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(734,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(735,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(735,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(779,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(779,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(780,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(780,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(781,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(781,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(783,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(783,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(783,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(801,20): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(801,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(801,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(802,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(802,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(802,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(802,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(803,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(803,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(803,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(803,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(805,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(805,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(805,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(951,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(952,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(953,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(955,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(956,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(956,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(957,13): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(961,14): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(970,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(971,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(998,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(999,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(999,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1000,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1001,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1002,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1003,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1003,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1004,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1005,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1006,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1007,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1008,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1010,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1011,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1012,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1013,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1015,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1017,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1018,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1020,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1196,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1196,15): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1197,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1197,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1198,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1198,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1199,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1199,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1200,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1200,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1201,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1201,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1202,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1202,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1203,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1203,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1205,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1205,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1206,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1206,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1207,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1207,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1208,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1208,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1209,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1209,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1210,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1210,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1211,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1211,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1212,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1212,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1213,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1213,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1214,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1214,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1215,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1215,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1216,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1216,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1217,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1217,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1218,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1218,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1219,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1219,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1220,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1220,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1222,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1222,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1223,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1223,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1224,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1224,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1225,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1225,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1226,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1226,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1227,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1227,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1448,16): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1449,11): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1536,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1537,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1538,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\src\scene.cpp(1539,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  png_writer.cpp
+  Generating Code...
+  DreamVillage.vcxproj -> C:\Users\shaya\Downloads\OpenGL-Dream-Village (1)\x64\Debug\DreamVillage.exe

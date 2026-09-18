@@ -1,0 +1,27 @@
+Dream Village — provenance notice
+=================================
+
+The scene geometry of this program (the houses, trees, trains, boats, birds,
+planes, clouds, rain, sky, river and road drawn in src/scene.cpp, and the
+whole of legacy/main.cpp) was written by Krishno Dey and published as
+
+    https://github.com/krishnodey/Dream-Village   (commit f13a329, August 2020)
+
+That repository carries no licence file.  It is used here for educational,
+non-commercial purposes with attribution, as a course exercise in reading,
+porting and improving an existing immediate-mode OpenGL program.  Copyright
+in the original geometry remains with its author; should the author object
+to its use here, it will be removed on request.
+
+Everything else in this repository — the restructured scene model
+(src/scene.h, dv::AnimationState, dv::advance, dv::render), the GLUT
+front-end (src/main.cpp), the PNG writer, the softgl software rasteriser
+(tools/softgl), the head-less regression harness (tools/render_headless.cpp,
+tools/legacy_shim.cpp), the build system, CI configuration and documentation
+— is © 2026 Shayan Amouzadeh and released under the MIT License (see LICENSE).
+The MIT licence applies only to those parts, not to the upstream geometry.
+
+Third-party code
+----------------
+third_party/stb_image_write.h — Sean Barrett et al., v1.16, public domain /
+MIT (dual licence, see the end of the file).
