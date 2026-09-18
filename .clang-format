@@ -1,0 +1,15 @@
+# Applies to src/ and tools/ only; legacy/ is kept verbatim.
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 110
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterClass: false
+  AfterStruct: false
+  AfterNamespace: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortCaseLabelsOnASingleLine: true
+AlignConsecutiveAssignments: false
+NamespaceIndentation: None
+PointerAlignment: Left
