@@ -42,6 +42,7 @@ pipeline, in four scenes (day, rain, night, rain at night).
 | Output | — | `p` saves a PNG; `--screenshot DIR` renders all four scenes off-screen |
 | Testing | — | [`tools/softgl`](tools/softgl): a software rasteriser for the used GL subset; the port is checked **pixel-for-pixel against the legacy program** in CI on three OSes |
 | Hygiene | binaries (`main.o`, `freeglut.dll`), IDE state and a stray `main.c` committed | ignored/removed; `NOTICE`, `LICENSE`, `.clang-format`, `.editorconfig` |
+| Warnings | implicit `double` → `GLfloat` narrowing on almost every drawing call (MSVC reports C4244/C4305, an *error* under `/sdl` on current toolsets) | every narrowing conversion written out explicitly — nothing about the arithmetic changed, the rendered pixels are bit-identical; clean at MSVC `/W4` + `/sdl` and at GCC/Clang `-Wall -Wextra -Wpedantic -Wshadow` |
 
 The defect list with symptoms and fixes is in [`legacy/README.md`](legacy/README.md).
 
@@ -145,6 +146,15 @@ Two tests run under `ctest` on Ubuntu, macOS and Windows (MSVC):
 * **`softgl_selftest`** checks the rasteriser itself against exact pixel counts
   (edge exclusivity, no double coverage across shared edges, Gouraud
   endpoints, matrix-stack errors, line lengths, error semantics).
+
+Exact pixel counts only mean something if the arithmetic is reproducible, so the
+build disables multiply-add contraction (`-ffp-contract=off` for GCC and Clang;
+MSVC's default `/fp:precise` does not contract).  Leaving it on, Clang fuses
+`a*b+c` into a single FMA, the edge functions of pixels that lie *exactly* on a
+triangle edge stop being exactly zero, and the fill rule sends those pixels to
+both triangles or to neither — the self-test counts then change with the
+compiler, which is exactly what happened on the arm64 macOS runners (the same
+two checks, reproduced with Clang on x86-64).
 
 ```bash
 ctest --test-dir build --output-on-failure

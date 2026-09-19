@@ -49,7 +49,10 @@ void circle(GLfloat rx, GLfloat ry, GLfloat x, GLfloat y)
     glVertex2f(x,y);
     for(int i=0;i<=kCircleSegments;i++)
     {
-        const float angle = 2 * twoPi * i / (2 * kCircleSegments);
+        // Float arithmetic, exactly as in the upstream program (the divisor is
+        // exact in both int and float); no implicit int -> float conversions.
+        const float angle = (2.f * twoPi * static_cast<float>(i)) /
+                            static_cast<float>(2 * kCircleSegments);
         glVertex2f(x+(cos(angle)*rx),y+(sin(angle)* ry));
     }
     glEnd();
@@ -115,7 +118,7 @@ void boat(float x1, float y1, float boatLength)
         glVertex2d(x2,y3+.7);
     glEnd();
     glColor3d(.90,1,1);
-    glRectf(x5-.2,y5+1,x5+.2,y5+12);
+    glRectf(static_cast<GLfloat>(x5-.2),y5+1,static_cast<GLfloat>(x5+.2),y5+12);
 
     glBegin(GL_TRIANGLES);
         glColor3d(0,.1,1);
@@ -171,10 +174,10 @@ void train()
     glVertex2d(65.1,48);
     glVertex2d(66.1,48);
     glVertex2d(66,46);
-    glColor3f(1,.9,.30);
+    glColor3f(1,static_cast<GLfloat>(.9),static_cast<GLfloat>(.30));
     glVertex2d(65,46);
     //joint shadow
-    glColor3f(1,.9,0);
+    glColor3f(1,static_cast<GLfloat>(.9),0);
     glVertex2d(64.8,48);
     glVertex2d(65.1,48);
     glVertex2d(65,46);
@@ -210,20 +213,20 @@ void train()
     glEnd();
     //top plate front cabin
     glColor3f(1,0,0);
-    circle(0.5,0.7,62,42);
-    circle(0.5,0.7,69,42);
+    circle(0.5,static_cast<GLfloat>(0.7),62,42);
+    circle(0.5,static_cast<GLfloat>(0.7),69,42);
     //front plate
     glColor3f(1,1,1);
-    circle(0.5,0.7,64,37.5);
-    circle(0.5,0.7,65.5,37.5);
-    circle(0.5,0.7,67.3,37.5);
+    circle(0.5,static_cast<GLfloat>(0.7),64,37.5);
+    circle(0.5,static_cast<GLfloat>(0.7),65.5,37.5);
+    circle(0.5,static_cast<GLfloat>(0.7),static_cast<GLfloat>(67.3),37.5);
 
     //rear cabin
     glColor3f(1,1,1);
-    circle(0.3,0.5,63.5,50.2);
-    circle(0.3,0.5,65,50.2);
-    circle(0.3,0.5,66.5,50.2);
-    circle(0.3,0.5,67.7,50.2);
+    circle(static_cast<GLfloat>(0.3),0.5,63.5,static_cast<GLfloat>(50.2));
+    circle(static_cast<GLfloat>(0.3),0.5,65,static_cast<GLfloat>(50.2));
+    circle(static_cast<GLfloat>(0.3),0.5,66.5,static_cast<GLfloat>(50.2));
+    circle(static_cast<GLfloat>(0.3),0.5,static_cast<GLfloat>(67.7),static_cast<GLfloat>(50.2));
 
 }
 
@@ -281,15 +284,15 @@ void boat2(float x1=92,  float y1=40)
     glEnd();
 
     glColor3ub(160, 155, 136);
-    glRectf(x3,y3,x2-.7,y2);
-    glRectf(x6,y6,x5+.7,y5);
+    glRectf(x3,y3,static_cast<GLfloat>(x2-.7),y2);
+    glRectf(x6,y6,static_cast<GLfloat>(x5+.7),y5);
 
-    glRectf(x2-.7,y2-1,x6+.7,y2-1.5);
-    glRectf(x2-.7,y2,x6+.7,y2+.5);
-    glRectf(x2-.7,y2+2,x6+.7,y2+2.5);
-    glRectf(x2-.7,y2+4,x6+.7,y2+4.5);
-    glRectf(x2-.7,y2+6,x6+.7,y2+6.5);
-    glRectf(x2-.7,y2+7.5,x6+.7,y2+8);
+    glRectf(static_cast<GLfloat>(x2-.7),y2-1,static_cast<GLfloat>(x6+.7),static_cast<GLfloat>(y2-1.5));
+    glRectf(static_cast<GLfloat>(x2-.7),y2,static_cast<GLfloat>(x6+.7),static_cast<GLfloat>(y2+.5));
+    glRectf(static_cast<GLfloat>(x2-.7),y2+2,static_cast<GLfloat>(x6+.7),static_cast<GLfloat>(y2+2.5));
+    glRectf(static_cast<GLfloat>(x2-.7),y2+4,static_cast<GLfloat>(x6+.7),static_cast<GLfloat>(y2+4.5));
+    glRectf(static_cast<GLfloat>(x2-.7),y2+6,static_cast<GLfloat>(x6+.7),static_cast<GLfloat>(y2+6.5));
+    glRectf(static_cast<GLfloat>(x2-.7),static_cast<GLfloat>(y2+7.5),static_cast<GLfloat>(x6+.7),y2+8);
 
     glBegin(GL_QUADS);
         glVertex2d(x1-.2,y2+.2);
@@ -380,7 +383,7 @@ void tree1(float x1, float y1)
 
 void tree2(float x1, float y1)
 {
-    float x2 = x1+5,y2=y1, x3=x1+2.5,y3=y1+6;
+    float x2 = x1+5,y2=y1, x3=static_cast<GLfloat>(x1+2.5),y3=y1+6;
     glColor3ub(11, 50, 11);
     glBegin(GL_TRIANGLES);
         glVertex2d(x1, y1);
@@ -495,41 +498,41 @@ void house1(int x, int y)
         glVertex2d(x+4,y-2);
     glEnd();
 
-    glColor3f(1,0.7,.11);
+    glColor3f(1,static_cast<GLfloat>(0.7),static_cast<GLfloat>(.11));
     glBegin(GL_QUADS);
         //wall right
-        glColor3f(.19,0.3,.30);
-        glVertex2f(x+3.5, y-7);
-        glVertex2f(x+7.3, y-4.5);
-        glVertex2f(x+7.3, y-1);
-        glVertex2f(x+3.5, y-1.5);
+        glColor3f(static_cast<GLfloat>(.19),static_cast<GLfloat>(0.3),static_cast<GLfloat>(.30));
+        glVertex2f(static_cast<GLfloat>(x+3.5), static_cast<GLfloat>(y-7));
+        glVertex2f(static_cast<GLfloat>(x+7.3), static_cast<GLfloat>(y-4.5));
+        glVertex2f(static_cast<GLfloat>(x+7.3), static_cast<GLfloat>(y-1));
+        glVertex2f(static_cast<GLfloat>(x+3.5), static_cast<GLfloat>(y-1.5));
         //door
-        glColor3f(.9,0.9,0.90);
-        glVertex2f(x+5.5,y-5.5);
-        glVertex2f(x+6.25,y-5);
-        glVertex2f(x+6.25,y-2.5);
-        glVertex2f(x+5.5,y-2.5);
+        glColor3f(static_cast<GLfloat>(.9),static_cast<GLfloat>(0.9),static_cast<GLfloat>(0.90));
+        glVertex2f(static_cast<GLfloat>(x+5.5),static_cast<GLfloat>(y-5.5));
+        glVertex2f(static_cast<GLfloat>(x+6.25),static_cast<GLfloat>(y-5));
+        glVertex2f(static_cast<GLfloat>(x+6.25),static_cast<GLfloat>(y-2.5));
+        glVertex2f(static_cast<GLfloat>(x+5.5),static_cast<GLfloat>(y-2.5));
 
         //right roof
-        glColor3f(1,0.7,.11);
+        glColor3f(1,static_cast<GLfloat>(0.7),static_cast<GLfloat>(.11));
         glVertex2d(x+2,y+4);
         glVertex2d(x+6,y+5);
         glVertex2d(x+8,y-1);
         glVertex2d(x+4,y-2);
 
         //wall left
-        glColor3f(.91,0.3,.31);
-        glVertex2f(x +0.3, y-5);
-        glVertex2f(x + 3.5, y-7);
-        glVertex2f(x + 3.5, y-1.5);
-        glVertex2f(x+0.5, y);
+        glColor3f(static_cast<GLfloat>(.91),static_cast<GLfloat>(0.3),static_cast<GLfloat>(.31));
+        glVertex2f(static_cast<GLfloat>(x +0.3), static_cast<GLfloat>(y-5));
+        glVertex2f(static_cast<GLfloat>(x + 3.5), static_cast<GLfloat>(y-7));
+        glVertex2f(static_cast<GLfloat>(x + 3.5), static_cast<GLfloat>(y-1.5));
+        glVertex2f(static_cast<GLfloat>(x+0.5), static_cast<GLfloat>(y));
 
         //window left
         glColor3f(1,1,1);
-        glVertex2f(x+1.5,y-3.5);
-        glVertex2f(x+2.2,y-4);
-        glVertex2f(x+2.2,y-1.7);
-        glVertex2f(x+1.5,y-1.3);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-3.5));
+        glVertex2f(static_cast<GLfloat>(x+2.2),static_cast<GLfloat>(y-4));
+        glVertex2f(static_cast<GLfloat>(x+2.2),static_cast<GLfloat>(y-1.7));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-1.3));
     glEnd();
 }
 
@@ -542,39 +545,39 @@ void house2(int x, int y)
         glVertex2d(x+4,y-2);
     glEnd();
 
-    glColor3f(1,0.7,.11);
+    glColor3f(1,static_cast<GLfloat>(0.7),static_cast<GLfloat>(.11));
     glBegin(GL_QUADS);
         //wall right
-        glColor3f(.3,0.1,.30);
-        glVertex2f(x+3.5, y-7);
-        glVertex2f(x+7.3, y-4.5);
-        glVertex2f(x+7.3, y-1);
-        glVertex2f(x+3.5, y-1.5);
+        glColor3f(static_cast<GLfloat>(.3),static_cast<GLfloat>(0.1),static_cast<GLfloat>(.30));
+        glVertex2f(static_cast<GLfloat>(x+3.5), static_cast<GLfloat>(y-7));
+        glVertex2f(static_cast<GLfloat>(x+7.3), static_cast<GLfloat>(y-4.5));
+        glVertex2f(static_cast<GLfloat>(x+7.3), static_cast<GLfloat>(y-1));
+        glVertex2f(static_cast<GLfloat>(x+3.5), static_cast<GLfloat>(y-1.5));
         //door
-        glColor3f(1,0.44,0.40);
-        glVertex2f(x+5.5,y-5.5);
-        glVertex2f(x+6.25,y-5);
-        glVertex2f(x+6.25,y-2.5);
-        glVertex2f(x+5.5,y-2.5);
+        glColor3f(1,static_cast<GLfloat>(0.44),static_cast<GLfloat>(0.40));
+        glVertex2f(static_cast<GLfloat>(x+5.5),static_cast<GLfloat>(y-5.5));
+        glVertex2f(static_cast<GLfloat>(x+6.25),static_cast<GLfloat>(y-5));
+        glVertex2f(static_cast<GLfloat>(x+6.25),static_cast<GLfloat>(y-2.5));
+        glVertex2f(static_cast<GLfloat>(x+5.5),static_cast<GLfloat>(y-2.5));
         //right roof
-        glColor3f(1,0.4,.31);
+        glColor3f(1,static_cast<GLfloat>(0.4),static_cast<GLfloat>(.31));
         glVertex2d(x+2,y+4);
         glVertex2d(x+6,y+5);
         glVertex2d(x+8,y-1);
         glVertex2d(x+4,y-2);
         //wall left
-        glColor3f(.41,0.5,.31);
-        glVertex2f(x +0.3, y-5);
-        glVertex2f(x + 3.5, y-7);
-        glVertex2f(x + 3.5, y-1.5);
-        glVertex2f(x+0.5, y);
+        glColor3f(static_cast<GLfloat>(.41),0.5,static_cast<GLfloat>(.31));
+        glVertex2f(static_cast<GLfloat>(x +0.3), static_cast<GLfloat>(y-5));
+        glVertex2f(static_cast<GLfloat>(x + 3.5), static_cast<GLfloat>(y-7));
+        glVertex2f(static_cast<GLfloat>(x + 3.5), static_cast<GLfloat>(y-1.5));
+        glVertex2f(static_cast<GLfloat>(x+0.5), static_cast<GLfloat>(y));
 
         //window left
-        glColor3f(1,.0,.1);
-        glVertex2f(x+1.5,y-3.5);
-        glVertex2f(x+2.2,y-4);
-        glVertex2f(x+2.2,y-1.7);
-        glVertex2f(x+1.5,y-1.3);
+        glColor3f(1,.0,static_cast<GLfloat>(.1));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-3.5));
+        glVertex2f(static_cast<GLfloat>(x+2.2),static_cast<GLfloat>(y-4));
+        glVertex2f(static_cast<GLfloat>(x+2.2),static_cast<GLfloat>(y-1.7));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-1.3));
     glEnd();
 }
 
@@ -584,35 +587,35 @@ void bird1(int x, int y)
     //feater
     glColor3ub(206, 69, 19);
     glBegin(GL_QUADS);
-        glVertex2f(x,y);
-        glColor3f(.2, 1.0, .10);
-        glVertex2f(x+5,y);
-        glColor3f(1, .90, .160);
-        glVertex2f(x+3.5,y-2.5);
-        glColor3f(1.0, .20, .90);
-        glVertex2f(x+1.5,y-2.5);
+        glVertex2f(static_cast<GLfloat>(x),static_cast<GLfloat>(y));
+        glColor3f(static_cast<GLfloat>(.2), 1.0, static_cast<GLfloat>(.10));
+        glVertex2f(static_cast<GLfloat>(x+5),static_cast<GLfloat>(y));
+        glColor3f(1, static_cast<GLfloat>(.90), static_cast<GLfloat>(.160));
+        glVertex2f(static_cast<GLfloat>(x+3.5),static_cast<GLfloat>(y-2.5));
+        glColor3f(1.0, static_cast<GLfloat>(.20), static_cast<GLfloat>(.90));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-2.5));
 
         //tail
     glEnd();
     //body
     glColor3ub(255, 9, 6);
-    circle(2.5,2,x+2.55,y-4.55);
+    circle(2.5,2,static_cast<GLfloat>(x+2.55),static_cast<GLfloat>(y-4.55));
 
     glBegin(GL_TRIANGLES);
         //lips
         glColor3ub(55, 220, 60);
-        glVertex2f(x-1.3,y-5);
-        glVertex2f(x+.8,y-3.1);
-        glColor3f(1, .20, .160);
-        glVertex2f(x+.8,y-6);
+        glVertex2f(static_cast<GLfloat>(x-1.3),static_cast<GLfloat>(y-5));
+        glVertex2f(static_cast<GLfloat>(x+.8),static_cast<GLfloat>(y-3.1));
+        glColor3f(1, static_cast<GLfloat>(.20), static_cast<GLfloat>(.160));
+        glVertex2f(static_cast<GLfloat>(x+.8),static_cast<GLfloat>(y-6));
 
         //tail
         glColor3ub(0, 220, 60);
-        glVertex2f(x+4.8,y-5);
-        glColor3f(1, .20, .160);
-        glVertex2f(x+7,y-5);
-        glColor3f(1, .60, .90);
-        glVertex2f(x+7,y-1);
+        glVertex2f(static_cast<GLfloat>(x+4.8),static_cast<GLfloat>(y-5));
+        glColor3f(1, static_cast<GLfloat>(.20), static_cast<GLfloat>(.160));
+        glVertex2f(static_cast<GLfloat>(x+7),static_cast<GLfloat>(y-5));
+        glColor3f(1, static_cast<GLfloat>(.60), static_cast<GLfloat>(.90));
+        glVertex2f(static_cast<GLfloat>(x+7),static_cast<GLfloat>(y-1));
     glEnd();
     //eye
     // Upstream passes the literal 0.10 to a GLubyte parameter, so the value
@@ -620,36 +623,36 @@ void bird1(int x, int y)
     // the pixels identical to the legacy frame without a lossy-conversion
     // warning.
     glColor3ub(0, 0, static_cast<GLubyte>(.10));
-    circle(.3,.41,x+.1,y-4.6);
+    circle(static_cast<GLfloat>(.3),static_cast<GLfloat>(.41),static_cast<GLfloat>(x+.1),static_cast<GLfloat>(y-4.6));
 
     //legs
     glBegin(GL_QUADS);
-        glColor3f(.01,80,.12);
-        glVertex2f(x+1.5,y-6.5);
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2,y-8);
-        glVertex2f(x+2,y-6.5);
+        glColor3f(static_cast<GLfloat>(.01),80,static_cast<GLfloat>(.12));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-6.5));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2),static_cast<GLfloat>(y-6.5));
 
-        glColor3f(.01,90,.12);
-        glVertex2f(x+2.5,y-6.5);
-        glVertex2f(x+2.5,y-8);
-        glVertex2f(x+3,y-8);
-        glVertex2f(x+3,y-6.5);
+        glColor3f(static_cast<GLfloat>(.01),90,static_cast<GLfloat>(.12));
+        glVertex2f(static_cast<GLfloat>(x+2.5),static_cast<GLfloat>(y-6.5));
+        glVertex2f(static_cast<GLfloat>(x+2.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+3),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+3),static_cast<GLfloat>(y-6.5));
     glEnd();
-    glColor3f(1,.60,.32);
+    glColor3f(1,static_cast<GLfloat>(.60),static_cast<GLfloat>(.32));
     glBegin(GL_TRIANGLES);
     //1 red front
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2.5,y-8);
-        glVertex2f(x+.5,y-8.5);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+.5),static_cast<GLfloat>(y-8.5));
 
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2,y-8);
-        glVertex2f(x+1.5,y-8.9);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8.9));
 
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2,y-8);
-        glVertex2f(x+2.5,y-8.9);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2.5),static_cast<GLfloat>(y-8.9));
 
     //1 red rear leg
         glVertex2d(x+2.5,y-8);
@@ -670,69 +673,69 @@ void bird2(int x, int y)
     //feater
     glColor3ub(206, 69, 19);
     glBegin(GL_QUADS);
-        glVertex2f(x,y);
-        glColor3f(.9, 1.0, .10);
-        glVertex2f(x+5,y);
-        glColor3f(1, 0, .160);
-        glVertex2f(x+3.5,y-2.5);
+        glVertex2f(static_cast<GLfloat>(x),static_cast<GLfloat>(y));
+        glColor3f(static_cast<GLfloat>(.9), 1.0, static_cast<GLfloat>(.10));
+        glVertex2f(static_cast<GLfloat>(x+5),static_cast<GLfloat>(y));
+        glColor3f(1, 0, static_cast<GLfloat>(.160));
+        glVertex2f(static_cast<GLfloat>(x+3.5),static_cast<GLfloat>(y-2.5));
         glColor3f(1.0, 0.0, 1.0);
-        glVertex2f(x+1.5,y-2.5);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-2.5));
 
     glEnd();
     //body
     glColor3f(1, 1, 0);
-    circle(2.5,2,x+2.55,y-4.55);
+    circle(2.5,2,static_cast<GLfloat>(x+2.55),static_cast<GLfloat>(y-4.55));
 
     glBegin(GL_TRIANGLES);
         //lips
         glColor3ub(55, 220, 60);
-        glVertex2f(x+4.5,y-3.3);
-        glVertex2f(x+4.5,y-5.8);
-        glColor3f(1, .290, .160);
-        glVertex2f(x+6,y-4.4);
+        glVertex2f(static_cast<GLfloat>(x+4.5),static_cast<GLfloat>(y-3.3));
+        glVertex2f(static_cast<GLfloat>(x+4.5),static_cast<GLfloat>(y-5.8));
+        glColor3f(1, static_cast<GLfloat>(.290), static_cast<GLfloat>(.160));
+        glVertex2f(static_cast<GLfloat>(x+6),static_cast<GLfloat>(y-4.4));
 
         //tail
         glColor3ub(0, 220, 60);
-        glVertex2f(x+.7,y-5.3);
-        glColor3f(1, .20, .160);
-        glVertex2f(x-2,y-2);
-        glColor3f(1, .9, .90);
-        glVertex2f(x-2,y-5.5);
+        glVertex2f(static_cast<GLfloat>(x+.7),static_cast<GLfloat>(y-5.3));
+        glColor3f(1, static_cast<GLfloat>(.20), static_cast<GLfloat>(.160));
+        glVertex2f(static_cast<GLfloat>(x-2),static_cast<GLfloat>(y-2));
+        glColor3f(1, static_cast<GLfloat>(.9), static_cast<GLfloat>(.90));
+        glVertex2f(static_cast<GLfloat>(x-2),static_cast<GLfloat>(y-5.5));
     glEnd();
     //eye
     // Same truncation as in house1(); see the note there.
     glColor3ub(0, 0, static_cast<GLubyte>(.10));
-    circle(.3,.41,x+5,y-4.4);
+    circle(static_cast<GLfloat>(.3),static_cast<GLfloat>(.41),static_cast<GLfloat>(x+5),static_cast<GLfloat>(y-4.4));
 
     //legs
     glBegin(GL_QUADS);
-        glColor3f(.01,80,.12);
-        glVertex2f(x+1.7,y-6.5);
-        glVertex2f(x+1.7,y-8);
-        glVertex2f(x+2.2,y-8);
-        glVertex2f(x+2.2,y-6.5);
+        glColor3f(static_cast<GLfloat>(.01),80,static_cast<GLfloat>(.12));
+        glVertex2f(static_cast<GLfloat>(x+1.7),static_cast<GLfloat>(y-6.5));
+        glVertex2f(static_cast<GLfloat>(x+1.7),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2.2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2.2),static_cast<GLfloat>(y-6.5));
 
-        glColor3f(.01,90,.12);
-        glVertex2f(x+2.7,y-6.5);
-        glVertex2f(x+2.7,y-8);
-        glVertex2f(x+3.2,y-8);
-        glVertex2f(x+3.2,y-6.5);
+        glColor3f(static_cast<GLfloat>(.01),90,static_cast<GLfloat>(.12));
+        glVertex2f(static_cast<GLfloat>(x+2.7),static_cast<GLfloat>(y-6.5));
+        glVertex2f(static_cast<GLfloat>(x+2.7),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+3.2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+3.2),static_cast<GLfloat>(y-6.5));
     glEnd();
 
     glBegin(GL_TRIANGLES);
-        glColor3f(1,.3,0);
+        glColor3f(1,static_cast<GLfloat>(.3),0);
         //1 red front
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2.5,y-8);
-        glVertex2f(x+.5,y-8.5);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+.5),static_cast<GLfloat>(y-8.5));
 
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2,y-8);
-        glVertex2f(x+1.5,y-8.9);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8.9));
 
-        glVertex2f(x+1.5,y-8);
-        glVertex2f(x+2,y-8);
-        glVertex2f(x+2.5,y-8.9);
+        glVertex2f(static_cast<GLfloat>(x+1.5),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2),static_cast<GLfloat>(y-8));
+        glVertex2f(static_cast<GLfloat>(x+2.5),static_cast<GLfloat>(y-8.9));
 
     //1 red rear leg
         glVertex2d(x+2.7,y-8);
@@ -776,11 +779,11 @@ void Plane1()
         glVertex2f(86,90);
     glEnd();
     glColor3f(1,1,1);
-    circle(.2,.3,88.5,91);
-    circle(.2,.3,89.5,91);
-    circle(.2,.3,90.5,91);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),88.5,91);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),89.5,91);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),90.5,91);
     glColor3f(1,0,0);
-    circle(.2,.3,92.5,93.4);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),92.5,static_cast<GLfloat>(93.4));
 }
 
 void Plane2()
@@ -798,11 +801,11 @@ void Plane2()
     glEnd();
 
     glColor3f(1,1,1);
-    circle(.2,.3,5,81.2);
-    circle(.2,.3,6.4,81.2);
-    circle(.2,.3,7.8,81.2);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),5,static_cast<GLfloat>(81.2));
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),static_cast<GLfloat>(6.4),static_cast<GLfloat>(81.2));
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),static_cast<GLfloat>(7.8),static_cast<GLfloat>(81.2));
     glColor3f(1,0,0);
-    circle(.2,.3,3.5,83.4);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),3.5,static_cast<GLfloat>(83.4));
 
 }
 
@@ -948,17 +951,17 @@ void road()
     //triangles
     glColor3ub(22, 58, 21);
     rightTriangle(70,60,2,3);
-    rightTriangle(70.3,58,2,3);
-    rightTriangle(70.6,56,2,3);
-    rightTriangle(70.9,54,2,3);
+    rightTriangle(static_cast<GLfloat>(70.3),58,2,3);
+    rightTriangle(static_cast<GLfloat>(70.6),56,2,3);
+    rightTriangle(static_cast<GLfloat>(70.9),54,2,3);
     rightTriangle(71,52,2,2.5);
-    rightTriangle(71.2,50,2,2.5);
-    rightTriangle(71.4,48,2,2.3);
-    float x =71.6, y=46.0;
+    rightTriangle(static_cast<GLfloat>(71.2),50,2,2.5);
+    rightTriangle(static_cast<GLfloat>(71.4),48,2,static_cast<GLfloat>(2.3));
+    float x =static_cast<GLfloat>(71.6), y=46.0;
     int i;
     for(i=1; i<23; i++){
         rightTriangle(x, y, 2.0,2.0);
-        x += 0.2;
+        x = static_cast<float>(x + 0.2);       // upstream: x += 0.2 in double arithmetic
         y -= 2;
     }
 
@@ -967,8 +970,8 @@ void road()
     leftTriangle(60,60,2,3);
     leftTriangle(60,58,2,3);
     leftTriangle(60,56,2,3);
-    leftTriangle(60,54,2,2.4);
-    leftTriangle(60,52,2,2.2);
+    leftTriangle(60,54,2,static_cast<GLfloat>(2.4));
+    leftTriangle(60,52,2,static_cast<GLfloat>(2.2));
     leftTriangle(60,50,2,2);
     leftTriangle(60,48,1,1.5);
     leftTriangle(60,47,1,1.5);
@@ -995,29 +998,29 @@ void road()
     glRectf(62.5,53,67.5,52);
     glRectf(62,51,68,50);
     glRectf(61.5,49,68.5,48);
-    glRectf(61.3,47,69,46);
-    glRectf(61.2,45,69.3,44);
-    glRectf(61.1,43,69.5,42);
-    glRectf(61,41,69.7,40);
-    glRectf(61,39,69.8,38);
-    glRectf(61.1,37,69.9,36);
-    glRectf(61.05,35,70,34);
-    glRectf(61,33,70.2,32);
-    glRectf(61,31,70.4,30);
-    glRectf(61,29,70.6,28);
-    glRectf(61,27,70.8,26);
+    glRectf(static_cast<GLfloat>(61.3),47,69,46);
+    glRectf(static_cast<GLfloat>(61.2),45,static_cast<GLfloat>(69.3),44);
+    glRectf(static_cast<GLfloat>(61.1),43,69.5,42);
+    glRectf(61,41,static_cast<GLfloat>(69.7),40);
+    glRectf(61,39,static_cast<GLfloat>(69.8),38);
+    glRectf(static_cast<GLfloat>(61.1),37,static_cast<GLfloat>(69.9),36);
+    glRectf(static_cast<GLfloat>(61.05),35,70,34);
+    glRectf(61,33,static_cast<GLfloat>(70.2),32);
+    glRectf(61,31,static_cast<GLfloat>(70.4),30);
+    glRectf(61,29,static_cast<GLfloat>(70.6),28);
+    glRectf(61,27,static_cast<GLfloat>(70.8),26);
     glRectf(61,25,71,24);
-    glRectf(61,23,71.2,22);
-    glRectf(61,21,71.4,20);
-    glRectf(61,19,71.6,18);
-    glRectf(61,17,71.8,16);
+    glRectf(61,23,static_cast<GLfloat>(71.2),22);
+    glRectf(61,21,static_cast<GLfloat>(71.4),20);
+    glRectf(61,19,static_cast<GLfloat>(71.6),18);
+    glRectf(61,17,static_cast<GLfloat>(71.8),16);
     glRectf(61,15,72,14);
-    glRectf(61,13,72.2,12);
+    glRectf(61,13,static_cast<GLfloat>(72.2),12);
     glRectf(61,11,72.5,10);
-    glRectf(61,9,72.7,8);
-    glRectf(61,7,72.9,6);
+    glRectf(61,9,static_cast<GLfloat>(72.7),8);
+    glRectf(61,7,static_cast<GLfloat>(72.9),6);
     glRectf(61,5,73,4);
-    glRectf(61,3,73.3,2);
+    glRectf(61,3,static_cast<GLfloat>(73.3),2);
 
  //rail pati
     glBegin(GL_POLYGON);
@@ -1193,38 +1196,38 @@ void nightsky()
     circle(4,9,75,85);
 
     //stars
-    star(5,97,0.4,0.8);
-    star(10,66,0.4,0.8);
-    star(25,90,0.4,0.8);
-    star(30,71,0.4,0.8);
-    star(45,95,0.4,0.8);
-    star(60,75,0.4,0.8);
-    star(76,65,0.4,0.8);
-    star(86,85,0.4,0.8);
+    star(5,97,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(10,66,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(25,90,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(30,71,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(45,95,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(60,75,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(76,65,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(86,85,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
     //circle star
-    circle(.2,.3,2,88);
-    circle(.2,.3,3,68);
-    circle(.2,.3,12,78);
-    circle(.2,.3,24,69);
-    circle(.2,.3,19,97);
-    circle(.2,.3,35,98);
-    circle(.2,.3,32,82);
-    circle(.2,.3,50,73);
-    circle(.2,.3,55,91);
-    circle(.2,.3,68,96);
-    circle(.2,.3,62,66);
-    circle(.2,.3,80,61);
-    circle(.2,.3,81,81);
-    circle(.2,.3,95,98);
-    circle(.2,.3,98,75);
-    circle(.2,.3,96,58);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),2,88);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),3,68);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),12,78);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),24,69);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),19,97);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),35,98);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),32,82);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),50,73);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),55,91);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),68,96);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),62,66);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),80,61);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),81,81);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),95,98);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),98,75);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),96,58);
 
-    star(78,53,0.4,0.8);
-    star(85,50,0.4,0.8);
-    star(95,48,0.4,0.8);
-    circle(.2,.3,98,52);
-    circle(.2,.3,83,53);
-    circle(.2,.3,88,54);
+    star(78,53,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(85,50,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    star(95,48,static_cast<GLfloat>(0.4),static_cast<GLfloat>(0.8));
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),98,52);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),83,53);
+    circle(static_cast<GLfloat>(.2),static_cast<GLfloat>(.3),88,54);
 
     planeMove();
     MovingBird();
@@ -1445,8 +1448,8 @@ void homes()
 
     //22
     glColor3ub(68, 83, 2);
-    circle(1,1,3.8,20.5);
-    tree4(2.8,37);
+    circle(1,1,static_cast<GLfloat>(3.8),20.5);
+    tree4(static_cast<GLfloat>(2.8),37);
     //23
     glColor3ub(68, 83, 2);
     circle(1,1,10,13.5);
@@ -1533,10 +1536,10 @@ void homes()
 
 void border()
 {   glColor3f(1,1,1);
-    glRectf(.8,1,99.5,1.5);
-    glRectf(0.8,1,1,99.5);
-    glRectf(0.8,99.5,99.5,99);
-    glRectf(99.1,99.5,99.5,1);
+    glRectf(static_cast<GLfloat>(.8),1,99.5,1.5);
+    glRectf(static_cast<GLfloat>(0.8),1,1,99.5);
+    glRectf(static_cast<GLfloat>(0.8),99.5,99.5,99);
+    glRectf(static_cast<GLfloat>(99.1),99.5,99.5,1);
 }
 
 #undef anim

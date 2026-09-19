@@ -15,6 +15,14 @@ if(MSVC)
   add_compile_options(/W4 /permissive- /utf-8)
 else()
   add_compile_options(-Wall -Wextra -Wpedantic -Wshadow)
+  # Deterministic floating-point: the head-less regression test and the
+  # rasteriser self-test require every operation to round individually.
+  # Clang (and GCC) fuse multiply-adds by default where FMA exists, which
+  # turns edge functions that are exactly zero into +/-1 ulp and lets pixels
+  # fall between two triangles; that is why the same self-test passes with GCC
+  # on x86-64 and fails with AppleClang on arm64.  /fp:precise, MSVC's default,
+  # does not contract.
+  add_compile_options(-ffp-contract=off)
 endif()
 
 # third_party/stb_image_write.h calls sprintf() in its HDR writer (unused here);

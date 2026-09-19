@@ -45,7 +45,7 @@ int         g_screenshotTicks = kDefaultTicks;
 
 dv::Image captureViewport()
 {
-    std::vector<unsigned char> pixels(static_cast<size_t>(g_vpW) * g_vpH * 3);
+    std::vector<unsigned char> pixels(static_cast<size_t>(g_vpW) * static_cast<size_t>(g_vpH) * 3u);
     glPixelStorei(GL_PACK_ALIGNMENT, 1);
     glReadPixels(g_vpX, g_vpY, g_vpW, g_vpH, GL_RGB, GL_UNSIGNED_BYTE, pixels.data());
     return dv::imageFromGlPixels(g_vpW, g_vpH, pixels.data());
